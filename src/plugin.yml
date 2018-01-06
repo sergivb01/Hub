@@ -1,0 +1,16 @@
+name: LobbyBasics
+version: 1.4
+main: us.veilhcf.hub.Main
+author: sergivb01
+commands:
+    author:
+        description: Information about plugin
+        aliases: [dev]
+    spawn:
+        description: Sends to spawn
+    fly:
+        description: Toggles fly
+    builder:
+        description: Send you to builders server
+    leavequeue:
+        description: Leaves queue

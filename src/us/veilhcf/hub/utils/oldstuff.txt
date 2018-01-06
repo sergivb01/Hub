@@ -1,0 +1,49 @@
+/*if (getPosition(player) != -1) { //Player is in queue
+                        scoreboardHelper.add(new ColorUtils().translateFromString(""));
+                        scoreboardHelper.add(new ColorUtils().translateFromString(mainColor + "Queue" + separator + parentesi1 + secondColor + getQueue(player) + parentesi2));
+                        scoreboardHelper.add(new ColorUtils().translateFromString("&fPosition " + secondColor + " &f#" + getPosition(player) + " of " + getQueueSize(getQueue(player))));
+                    }
+
+                    if (countdownEnabled) { //Countdown is enabled
+                        Calendar thatDay = Calendar.getInstance();
+                        thatDay.setTime(new Date(0));
+                        thatDay.set(Calendar.HOUR_OF_DAY, countdownHour);
+                        thatDay.set(Calendar.DAY_OF_MONTH, countdownDay);
+                        thatDay.set(Calendar.MONTH, countdownMonth - 1); // 0-11 so 1 less
+                        thatDay.set(Calendar.YEAR, countdownYear);
+                        thatDay.setTimeZone(TimeZone.getTimeZone("Europe/Madrid"));//Timezone
+                        Calendar today = Calendar.getInstance(); //Getting current date
+                        long diff = thatDay.getTimeInMillis() - today.getTimeInMillis();
+                        long diffSec = diff / 1000;
+                        long days = diffSec / SECONDS_IN_A_DAY;
+                        long secondsDay = diffSec % SECONDS_IN_A_DAY;
+                        long seconds = secondsDay % 60;
+                        long minutes = (secondsDay / 60) % 60;
+                        long hours = (secondsDay / 3600); // % 24 not needed
+
+                        boolean islive = false;
+
+                        String cDate = "Loading...";
+                        if (seconds < 0) {
+                            cDate = "Live now!";
+                            islive = true;
+                        } else if(!islive){
+                            if (days == 0) {
+                                cDate = hours + " hours " + minutes + " min " + seconds + "s";
+                            } else if ((days == 0) && (hours == 0)) {
+                                cDate = minutes + " min " + seconds + "s";
+                            } else if ((days == 0) && (hours == 0) && (minutes == 0)) {
+                                cDate = seconds + " seconds!";
+                            } else {
+                                if (days == 1) {
+                                    cDate = days + " day " + hours + " hours " + minutes + " min " + seconds + "s";
+                                } else {
+                                    cDate = days + " days " + hours + " hours " + minutes + " min " + seconds + "s";
+                                }
+                            }
+                        }
+
+                        scoreboardHelper.add(new ColorUtils().translateFromString(""));
+                        scoreboardHelper.add(new ColorUtils().translateFromString(countdownName + ChatColor.WHITE + ":"));
+                        scoreboardHelper.add(new ColorUtils().translateFromString(cDate));
+                    }*/
