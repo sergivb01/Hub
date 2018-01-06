@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="OldLobbySys:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/OldLobbySys_jar</output-path>
-    <root id="archive" name="OldLobbySys.jar">
-      <element id="module-output" name="OldLobbySys" />
-    </root>
-  </artifact>
-</component>
